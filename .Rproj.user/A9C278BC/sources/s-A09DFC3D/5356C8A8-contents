@@ -1,0 +1,107 @@
+---
+pagetitle: Monitor de Quarentena
+---
+
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+# Monitor de Quarentena Usando Dados de Trânsito do Google
+
+<p>&nbsp;</p>
+
+```{r, , echo=FALSE, results='asis'}
+  LastUpdate <- readLines("doc/figures/website/LastUpdate.txt")
+  cat('<center> <h4> Ultima Atualização - ', LastUpdate, '</h4> </center> \n')
+```
+
+<p>&nbsp;</p>
+
+
+**Contribuindo com o monitoramento da efetividade das medidas de distanciamento social para combater a Covid-19.**
+
+<p>&nbsp;</p>
+
+Esse site mostra um indicador de efetividade da quarentena para o combate ao Covid-19 usando os dados do [API do Google Maps](https://developers.google.com/maps/documentation/directions/intro). O raciocínio por trás da medida é o seguinte: se a quarentena está funcionando, as cidades estarão vazias e não haverá trânsito. Ao contrário, se há trânsito, a quarentena não está sendo efetiva.
+
+<p>&nbsp;</p>
+
+**Metodologia.** A medida do indicador é simples: o tempo gasto para cruzar a cidade de uma ponta a outra, passado pelo centro, sobre o tempo gasto para o mesmo trajeto de madrugada, quando não há trânsito. Se o tempo gasto para atravessar a cidade é o mesmo de dia e de madrugada, o indicador será 1. Se o tempo para fazer o trajeto durante o dia for 10% maior que o tempo para se fazer o trajeto de madrugada, o indicador será 1,1; e assim por diante. Cada cidade é avaliada em dois trajetos: o trajeto norte/sul (ir do extremo norte ao extremo sul) e o leste/oeste; sempre passando pelo centro. 
+
+<p>&nbsp;</p>
+
+**Amostra.** A amostra cobre [as 50 cidades mais populosas do Brasil](https://pt.wikipedia.org/wiki/Lista_de_munic%C3%ADpios_do_Brasil_acima_de_cem_mil_habitantes). As informações são colhidas 10 vezes por dia todos os dias. Porém, para deixar os gráficos mais limpos, iremos mostrar apenas os dias de trabalho (excluindo feriados e fim da semana) e somente os horários das 8hs, 9hs, 12hs, 17hs, 18hs, e 19hs. A coleta de dados começou em 06 de abril de 2020.
+
+<p>&nbsp;</p>
+
+Você também pode ver o indicador individualizado para cada uma das cidades [AQUI](Bycity.html).
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+## Indicador geral de quarentena. 
+
+<p>&nbsp;</p>
+
+Abaixo está o indicador do fluxo de trânsito médio das 50 cidades da amostra.
+
+<p>&nbsp;</p>
+
+![Indicador de trânsito geral por dia](doc/figures/website/ByDay.png)
+
+<p>&nbsp;</p>
+
+**Comentário:** quanto mais próximo de 1 (o valor mínimo teórico, o tempo de atravessar a cidade de madrugada), *maior* é a adesão á quarentena. Quanto maior o valor do indicador, *menor* é a adesão à quarentena. Podemos observar que as maiores cidades brasileiras começaram lentamente a quarentena a partir do dia 06 de abril. Depois de um pequeno repique depois do dia 17/04, houve uma forte guinada em direção ao uma quarentena mais dura. O aumento pontual do dia 30 de abril ainda não configura uma tendência. Aparentemente, as vésperas de feriado (como dia 17 e dia 30) levam a um repique do indicador.
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+## Comparação entre cidades da mesma região
+
+<p>&nbsp;</p>
+
+Abaixo temos a comparação entre as principais capitais do Sudeste, Nordeste, Sul e Norte, respectivamente.
+
+
+
+<p>&nbsp;</p>
+
+![Indicador de trânsito, região sudeste](doc/figures/website/Grupo1.png)
+
+
+<p>&nbsp;</p>
+
+![Indicador de trânsito, região nordeste](doc/figures/website/Grupo3.png)
+
+
+
+<p>&nbsp;</p>
+
+![Indicador de trânsito, região sul](doc/figures/website/Grupo2.png)
+
+
+<p>&nbsp;</p>
+
+![Indicador de trânsito, região norte](doc/figures/website/Grupo4.png)
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+## As cidades que MAIS respeitam a quarentena são:
+
+<p>&nbsp;</p>
+
+![Cidades com menor trânsito](doc/figures/website/MenorTransito.png)
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+## As cidades que MENOS respeitam a quarentena são:
+
+<p>&nbsp;</p>
+
+![Cidades com maior trânsito](doc/figures/website/MaiorTransito.png)
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>

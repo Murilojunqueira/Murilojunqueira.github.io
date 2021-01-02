@@ -1,7 +1,7 @@
-name: "Murilo Junqueira Website"
+name: "Murilo Junqueira's Website"
 output_dir: "."
 navbar:
-  title: "Murilo Junqueira Website"
+  title: "Murilo Junqueira's Website"
   left:
     - text: "Publications"
       href: publications.html

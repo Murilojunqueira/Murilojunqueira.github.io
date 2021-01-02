@@ -3,14 +3,12 @@ output_dir: "."
 navbar:
   title: "Murilo Junqueira Website"
   left:
-    - text: "Main Page"
-      href: index.html
     - text: "Publications"
       href: publications.html
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
-      href: CV.html
+      href: https://github.com/Murilojunqueira/Murilojunqueira.github.io/raw/main/files/Murilo%20Junqueira%20-%20Curriculum_Vitae%20(2020-12)%20(English)%20(complete).pdf
 
     
   right: 

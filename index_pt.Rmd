@@ -1,0 +1,28 @@
+---
+
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="imagens/MyPhoto.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
+
+Olá mundo!
+
+Meu nome é **Murilo de Oliveira Junqueira**. Sou professor do Programa de Pós-Graduação em Ciência Política da Universidade Federal do Pará e mestre e doutor em ciência política pela Universidade de São Paulo (USP). Meus interesses de pesquisa são:
+
+**Substantivos**: instituições políticas, políticas públicas, administração pública, economia política e filosofia das ciências sociais.
+
+**Metodológicos**: ciências sociais computacionais, métodos quantitativos em ciência política, integração entre métodos quantitativos e qualitativos.
+
+<p>&nbsp;</p>
+
+Esse é o meu website pessoal, usado para divulgar meus estudos, pesquisas e experiências profissionais. Caso você quiser saber minha opinião sobre assuntos não profissionais, veja o blog:
+
+[Em Busca de um Mundo Melhor - Blog de Política](https://embuscadeummundomelhor.wordpress.com/)
+
+
+<p>&nbsp;</p>
+
+
+

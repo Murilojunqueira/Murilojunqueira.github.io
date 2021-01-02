@@ -1,0 +1,56 @@
+---
+
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+#### **2020**
+
+##### **Graduation courses**
+
+* Political Institutions (UFPA)
+
+##### **Undergraduation courses**
+
+* Political Analysis Methodology (UFPA)
+
+##### **Free courses**
+
+* How laws are made: legislative process and Legislative branch organization  (UFPA)
+
+<p>&nbsp;</p>
+
+#### **2019**
+
+##### **Graduation courses**
+
+* Scientific methodology and research design (UFPA)
+* Quantitative Research Methods and Techniques in Political Science (UFPA)
+
+##### **Undergraduation courses**
+
+* Teaching Lab (UFPA)
+* Introduction to Public Policy (UFPA)
+
+##### **Free courses**
+
+* Dealing with data in social surveys (UFPA)
+* WebScraping Data from Internet Using R (with Tiago Ventura, University of Maryland) (UFPA)
+* Using R to handle databases 2019  (UFPA)
+
+<p>&nbsp;</p>
+
+#### **2018**
+
+##### **Undergraduation courses**
+
+* Introduction to qualitative methods (UFPI)
+* Party and electoral systems (UFPI)
+* Federative studies (UFPI)
+* Legislative Studies (UFPI)
+* Introdution to Politica Science for Jounalism (UFPI)
+* Introdution to Politica Science for Management (UFPI)
+
+##### **Free courses**
+
+* Creating Scientific Databases in R (UFPI)

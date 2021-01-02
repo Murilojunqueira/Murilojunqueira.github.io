@@ -1,14 +1,29 @@
 name: "Murilo Junqueira Website"
+output_dir: "."
 navbar:
   title: "Murilo Junqueira Website"
   left:
-    - text: "Home"
+    - text: "Main Page"
       href: index.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "CV"
+      href: CV.html
+
+    
   right: 
     - icon: fa-envelope fa-lg
       href: mailto:<m.junqueira@yahoo.com.br>
+    - icon: fa-google fa-lg
+      href: https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ&hl=pt-BR
     - icon: fa-github fa-lg
       href: http://github.com/Murilojunqueira/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/murilo-junqueira-82390a33/
+      
 output:
   html_document:
     theme: paper
+    css: 'styles.css'

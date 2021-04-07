@@ -25,6 +25,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -69,6 +78,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -286,26 +296,29 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="http://lattes.cnpq.br/2764182741921334">Lattes</a>
+</li>
+<li>
   <a href="mailto:&lt;m.junqueira@yahoo.com.br&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ&amp;hl=pt-BR">
-    <span class="fa fa-google fa-lg"></span>
+  <a href="https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ">
+    <span class="fas fa-google fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://github.com/Murilojunqueira/">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/murilo-junqueira-82390a33/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -335,6 +348,7 @@ $(document).ready(function () {
 </div>
 <div id="peer-reviewed-articles" class="section level4">
 <h4><strong>Peer-Reviewed Articles</strong></h4>
+<p>2021 - <a href="http://e-legis.camara.leg.br/cefor/index.php/e-legis/article/view/648" target="_blank">Nem Localistas Nem Setorialistas, as Assembleias Estaduais são “Classe-Médistas”: ganhos e perdas das leis estaduais durante a crise da Covid-19</a>. E-Legis - Revista Eletrônica do Programa de Pós-Graduação da Câmara dos Deputados, v. 14, p. 235-249.</p>
 <p>2017 - <a href="https://anpocs.com/index.php/bib-pt/bib-83/11094-o-debate-sobre-o-federalismo-e-suas-implicacoes-para-a-governabilidade-no-brasil/file" target="_blank">O debate sobre o federalismo e suas implicações para a governabilidade no Brasil (1988-2015)</a>. Revista Brasileira de Informação Bibliométrica em Ciências Sociais (BIB) 83(1), 69-92.</p>
 <p>2015 - <a href="https://doi.org/10.17666/308993-113/2015" target="_blank">O nó da reforma tributária no Brasil (1995-2008)</a>. Revista Brasileira de Ciências Sociais, 30(89), 93-113.</p>
 <p>
@@ -367,7 +381,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

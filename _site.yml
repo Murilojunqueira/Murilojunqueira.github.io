@@ -12,10 +12,12 @@ navbar:
 
     
   right: 
+    - text: "Lattes"
+      href: http://lattes.cnpq.br/2764182741921334
     - icon: fa-envelope fa-lg
       href: mailto:<m.junqueira@yahoo.com.br>
     - icon: fa-google fa-lg
-      href: https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ&hl=pt-BR
+      href: https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ
     - icon: fa-github fa-lg
       href: http://github.com/Murilojunqueira/
     - icon: fa-linkedin fa-lg

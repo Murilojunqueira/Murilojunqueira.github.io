@@ -25,6 +25,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -69,6 +78,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -286,26 +296,29 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="http://lattes.cnpq.br/2764182741921334">Lattes</a>
+</li>
+<li>
   <a href="mailto:&lt;m.junqueira@yahoo.com.br&gt;">
-    <span class="fa fa-envelope fa-lg"></span>
+    <span class="fas fa-envelope fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ&amp;hl=pt-BR">
-    <span class="fa fa-google fa-lg"></span>
+  <a href="https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ">
+    <span class="fas fa-google fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="http://github.com/Murilojunqueira/">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
   <a href="https://www.linkedin.com/in/murilo-junqueira-82390a33/">
-    <span class="fa fa-linkedin fa-lg"></span>
+    <span class="fas fa-linkedin fa-lg"></span>
      
   </a>
 </li>
@@ -327,12 +340,22 @@ $(document).ready(function () {
 <p><img src="imagens/MyPhoto.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left"></p>
 <p>Hello World!</p>
 <p>My name is <strong>Murilo de Oliveira Junqueira</strong>. I am Political Science professor at the Federal University of Pará (<a href="https://portal.ufpa.br/">UFPA</a>), Brazil, and a master and PhD in political science from the University of São Paulo (USP). My research interests are:</p>
+<p>
+ 
+</p>
+<p>
+ 
+</p>
 <p><strong>Substantive:</strong> political institutions, public policy, public administration, political economy and philosophy of the social sciences.</p>
 <strong>Methodological:</strong> computational social sciences, quantitative methods in political science, integration between quantitative and qualitative methods.
 <p>
  
 </p>
-<p>This is my personal website. I use it to show my studies, research and professional experiences. If you want to know my opinion on non-professional subjects, see the blog:</p>
+<p>Here is my <a href="http://lattes.cnpq.br/2764182741921334">Lattes Curriculum</a> and my <a href="https://scholar.google.com.br/citations?user=qQjZMZIAAAAJ">Google Scholar</a>.</p>
+<p>
+ 
+</p>
+<p>This is my professional website. I use it to show my studies, research and professional experiences. If you want to know my opinion on non-professional subjects, see the blog:</p>
 <p><a href="https://embuscadeummundomelhor.wordpress.com/">Em Busca de um Mundo Melhor - Blog de Política (<em>In Search of a Better World - A Blog about Politics</em>)</a></p>
 <p>
  
@@ -347,7 +370,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
